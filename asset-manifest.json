@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/save-mom/static/css/main.34cca24e.css",
+    "main.js": "/save-mom/static/js/main.d3a4b7da.js",
+    "static/js/453.d32594a6.chunk.js": "/save-mom/static/js/453.d32594a6.chunk.js",
+    "static/media/allobaby.jpg": "/save-mom/static/media/allobaby.608919e7e6924d163dfb.jpg",
+    "static/media/allodoc.jpg": "/save-mom/static/media/allodoc.8a859506560d0eae8a29.jpg",
+    "static/media/allogate.jpg": "/save-mom/static/media/allogate.121bd390bb20f148a9d6.jpg",
+    "static/media/mom3.jpg": "/save-mom/static/media/mom3.243118253caf194f89e5.jpg",
+    "static/media/allolab.jpg": "/save-mom/static/media/allolab.055d3786d76f0d432461.jpg",
+    "static/media/mom1.jpg": "/save-mom/static/media/mom1.498bd7a610a4cdab4a07.jpg",
+    "static/media/mom2.jpg": "/save-mom/static/media/mom2.64c4773e9d2f41681378.jpg",
+    "index.html": "/save-mom/index.html",
+    "main.34cca24e.css.map": "/save-mom/static/css/main.34cca24e.css.map",
+    "main.d3a4b7da.js.map": "/save-mom/static/js/main.d3a4b7da.js.map",
+    "453.d32594a6.chunk.js.map": "/save-mom/static/js/453.d32594a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34cca24e.css",
+    "static/js/main.d3a4b7da.js"
+  ]
+}
