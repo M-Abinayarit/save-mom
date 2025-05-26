@@ -16,7 +16,7 @@ const About = () => {
             <p>
               Founded in 2020, Savemom began with a simple mission: to make
               quality healthcare accessible to every mother in India. What
-              started as a small clinic in Bangalore has grown into a nationwide
+              started as a small clinic in Madurai has grown into a nationwide
               network of caring professionals.
             </p>
 
