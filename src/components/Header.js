@@ -79,6 +79,17 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link
+                  to="about"
+                  smooth={true}
+                  duration={500}
+                  className="nav-link"
+                  onClick={closeMenu}
+                >
+                  About
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
                   to="casestudy"
                   smooth={true}
                   duration={500}
