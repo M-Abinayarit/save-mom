@@ -1,0 +1,173 @@
+.casestudy-section {
+  padding: 5rem 0;
+  background-color: #f8f9fa;
+}
+
+.section-title {
+  text-align: center;
+  color: #4a6fa5;
+  margin-bottom: 2rem;
+  font-size: 2.2rem;
+}
+
+.section-description {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  color: #6c757d;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Recognition Grid */
+.recognition-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.recognition-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.recognition-card:hover {
+  transform: translateY(-5px);
+}
+
+.recognition-icon {
+  font-size: 2.5rem;
+  color: #ff7e5f;
+  margin-bottom: 1rem;
+}
+
+.recognition-card h3 {
+  color: #4a6fa5;
+  margin-bottom: 1rem;
+}
+
+/* Impact Metrics */
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.metric-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.metric-card h3 {
+  font-size: 2.5rem;
+  color: #ff7e5f;
+  margin-bottom: 0.5rem;
+}
+.metric-card,
+.award-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.metric-card:hover,
+.award-card:hover {
+  transform: translateY(-5px);
+}
+/* Awards Section */
+.awards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.award-card {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.award-icon {
+  color: #ff7e5f;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+/* Supporters Section */
+.supporters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+  align-items: center;
+}
+
+.supporter-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.supporter-logo img {
+  max-width: 100%;
+  max-height: 50px;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.supporter-logo:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+@media (max-width: 900px) {
+  .metrics-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .metrics-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .supporters-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .metrics-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .supporters-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
